@@ -1,0 +1,323 @@
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 75vh;
+  }
+  .hero #video-bg {
+    object-position: 0 5vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .hero #video-bg {
+    object-position: 0 15vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Navbar Start */
+  #takeover-nav .nav-menu {
+    min-height: 500px;
+  }
+  #takeover-nav .nav-menu a {
+    color: #212121;
+  }
+  #takeover-nav .nav-menu a:hover {
+    color: #efefef;
+  }
+  #takeover-nav .nav-contact {
+    min-height: 600px;
+  }
+  #takeover-nav .nav-contact .nav-title {
+    font-size: 2.5em;
+  }
+  /* Navbar End */
+
+  /* Logo Start */
+  .sticky-nav {
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    justify-content: space-between; /* Posisi elemen secara seimbang */
+  }
+
+  .sticky-nav .logo {
+    margin-right: auto; /* Tambahkan margin otomatis ke kanan untuk mendorong menu burger ke kanan */
+  }
+
+  .sticky-nav #nav-btn {
+    margin-left: auto; /* Tambahkan margin otomatis ke kiri untuk menempatkan menu burger di pojok kanan */
+  }
+  /* Logo End */
+
+  /* Work Start */
+  section.two {
+    background-attachment: scroll;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section.two h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .section.two .mywork {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .portofolio {
+    margin: 1rem 0;
+  }
+
+  .portofolio-tags div {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+  /* Work End */
+
+  /* About Start */
+  section.three {
+    padding: 0 3rem;
+  }
+
+  .animated-text {
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .about-content img {
+    margin-bottom: 0;
+  }
+
+  .about-img {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .about-img img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .about-img p {
+    font-size: 0.9rem;
+    text-align: start;
+    flex-grow: 1;
+    margin: 0;
+  }
+  /* About End */
+
+  /* Sertifikat Start */
+  .rotate-box {
+    width: 155px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+  }
+
+  .rotate-box span {
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(180px); /* Kurangi translateZ untuk layar kecil */
+  }
+
+  .rotate-box span:hover {
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(225px); /* Kurangi translateZ untuk hover di layar kecil */
+  }
+
+  @keyframes animate {
+    0% {
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateY(360deg);
+    }
+  }
+
+  /* Sertifikat End */
+
+  /* Skills Start */
+  .skills {
+    margin: 2rem 0;
+  }
+
+  .skills h1 {
+    font-size: 3rem;
+  }
+
+  .text-skills {
+    font-size: 1.5rem;
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .line-skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-item {
+    min-width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .skill-item .logo-skills {
+    width: 50px;
+    height: 50px;
+  }
+
+  .separator {
+    display: none;
+  }
+  /* Skills End */
+
+  /* Get In Touch Start */
+  .container {
+    height: 70vh;
+  }
+
+  .top,
+  .bottom {
+    font-size: 7rem;
+  }
+
+  .top-wrapper {
+    top: 20%;
+  }
+
+  .bottom-wrapper {
+    top: 40%;
+  }
+  /* Get In Touch End */
+
+  /* Contact Start */
+  .location {
+    position: static;
+    width: 100%;
+    margin-bottom: 15rem;
+    border-radius: 0;
+    justify-content: center;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .icon-contact h3 {
+    font-size: 0.7rem;
+  }
+  /* Contact End */
+
+  /* Footer Start */
+  .link-me {
+    display: none;
+    /* display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    gap: 30px; */
+  }
+
+  /* .resume #link-view,
+  .resume span {
+    display: none;
+  }
+
+  .resume h2,
+  .resume h3 {
+    font-size: 0.8rem;
+  }
+
+  .social h3 {
+    font-size: 0.8rem;
+  } */
+  /* Footer End */
+}
+
+@media screen and (max-width: 575px) {
+  header .swoosh {
+    width: 165px;
+    height: 35px;
+    top: 10px;
+  }
+  header .sticky-nav {
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    justify-content: flex-start;
+  }
+  header .sticky-nav .logo {
+    width: 30px;
+    margin-right: auto;
+  }
+  header .sticky-nav #nav-btn {
+    width: 40px;
+    margin-left: auto;
+  }
+  header #takeover-nav .contact-items {
+    font-size: 1em;
+  }
+
+  .hero {
+    min-height: 600px;
+    height: 1000px;
+  }
+  .hero .hero-title {
+    font-size: 12vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .hero-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    animation: slideIn 0.5s ease;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    padding: 0 3rem;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .hero #video-bg {
+    object-position: 0 30vw;
+  }
+}
