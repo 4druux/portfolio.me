@@ -30,6 +30,14 @@
   #takeover-nav .nav-contact .nav-title {
     font-size: 2.5em;
   }
+
+  #takeover-nav .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding-top: 20px;
+  }
   /* Navbar End */
 
   /* Logo Start */
