@@ -103,8 +103,8 @@
 
   .about p {
     font-size: 1rem;
-    text-align: justify;
-    margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
   }
 
   .about-content {
